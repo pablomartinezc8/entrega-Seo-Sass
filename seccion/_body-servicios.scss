@@ -1,0 +1,80 @@
+.servicios{
+    h1{
+
+        margin: 50px 0px;
+        text-align: center;
+        &:hover{
+            color: $celeste;
+        }
+    }
+    
+    p{
+        font-size: 20px;
+        margin: 20px 80px;
+    }
+    .tresServ{
+       
+        margin: 50px 0px;
+        display: flex;
+        justify-content: space-around;
+    div{
+        width: 29vw;
+        color:$blanco;
+        background-image: linear-gradient(#22636b99 40%, #00d5fff3);
+       
+        display: flex;
+    justify-content: center;
+    align-content: flex-start;
+        p{
+            margin: 0px;
+            color:$blanco;
+        }
+    }
+}
+
+h2{ text-align: center;
+    &:hover{
+        color:$celeste;
+    }
+}
+
+h3{
+    font-size: 30px;
+    margin:40px 80px ;
+    &:hover{
+        color:$celeste;
+    }
+}
+
+ul{
+    margin: 20px 100px 30px 100px;
+}
+}
+@media (max-width: 420px) {
+    .servicios{
+
+     .tresServ{
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      div{
+        margin: 20px 0px;
+        width:80vw
+    }
+}
+        h3 {
+    font-size: 20px;
+    margin: 44px 30px;
+} 
+ul{
+    margin: 20px 10px 30px 9px;
+}
+p{
+    font-size: 15px;
+    margin: 1px 17px;
+}
+}
+
+    }
+

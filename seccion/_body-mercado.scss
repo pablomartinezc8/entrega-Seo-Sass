@@ -1,0 +1,88 @@
+.mercados{
+    h1{
+        &:hover{
+            color: rgb(0, 205, 241);
+        }
+       margin: 50px 0px;
+       text-align: center;
+       font-size: 50px;
+    }
+   
+   .imgCarousel{
+       .fotoCentrada {
+           position: relative;
+           width: 100%;
+           overflow: hidden;
+           text-align: center;
+       }
+   }
+   .mercadoDos{
+h2{
+    &:hover{
+        color:$celeste;
+    }
+   font-size: 40px;
+   margin: 40px 40px;
+}
+
+   h3{
+    &:hover{
+        color:$celeste;
+    }
+
+       font-size: 30px;
+       margin: 0px 0px 10px 60px;
+   }
+}
+   ul{
+       margin: 20px 100px 50px 100px;
+   }
+   .largo{
+       margin: 0px 25px;
+   }
+   p{
+       margin: 20px 25px;
+   }
+   .sectionImg{
+
+       display: flex;
+       justify-content: space-around;
+       margin: 100px 40px;
+       img{
+           width: 43vw;
+
+       
+   }
+}
+}
+@media (max-width: 420px) {
+    .imgCarousel{
+        .fotoCentrada {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            img, svg {
+                width: 80%;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+    }
+    .mercados .mercadoDos h3{
+        margin: 0px 0px 0px 22px;
+            font-size: 25px;
+        }
+    
+    .mercados ul {
+        margin: 9px 10px 50px 21px;}
+    
+        .mercados h1 {
+            margin: 40px 0px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .mercados .mercadoDos h2 {
+            font-size: 25px;
+            margin: 40px 40px;
+        }
+    }

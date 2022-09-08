@@ -1,0 +1,81 @@
+body{
+    background-color: $negro;
+}
+
+.div{
+    @extend %div;
+}
+
+.imgCarousel .fotoCentrada {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.imgCarousel .fotoCentrada img {
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+}     
+        
+    
+
+.section{
+    @include estiloTexto($typo-principal);
+}
+.wapp {
+    
+    display: inline-block;
+    
+    
+    
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    text-align: center;
+    i{  
+        font-size: 150px;
+        color: $verdeclaro;
+    }
+}
+
+.section3{
+    
+    color: $blanco;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    div{
+        width: 50vw;
+        background-color: $negro;
+        
+        p{
+            font-size: 20px;
+            margin: 15px;
+            &:hover{
+                font-size: 21px;
+                color:$celeste;
+            }
+        }
+    }
+}
+ @media (max-width: 420px) {
+    .div {
+        margin: 10px 20px;
+    }
+    
+    .section3 div {
+        width: 80vw;
+        margin: 30px 0px;
+    }
+    .wapp{
+        bottom: 20px;
+        right: 35px;
+    }
+    .wapp i {
+        
+        font-size: 100px;
+        color: $verdeclaro;
+    }
+ }

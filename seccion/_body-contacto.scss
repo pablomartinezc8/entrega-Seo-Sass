@@ -1,0 +1,13 @@
+.contacto{
+    .row{
+        margin: 33px 60px;
+    }
+    .h1, h1 {
+
+        margin: 20px;
+        text-align: center;}
+        &:hover{
+            color: $celeste;
+        }
+        
+    }

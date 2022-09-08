@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+
+
+@import './variable/colores';
+@import './variable/typo';
+@import './variable/extend';
+
+@import './seccion/header';
+@import './seccion/footer';
+@import './seccion/body-index';
+
+
+// CONTACTO
+@import './seccion/body-contacto';
+
+
+
+// MERCADOS
+@import './seccion/body-mercado';
+
+
+// SERVICIOS
+@import './seccion/body-servicios';
+
+
+//  PUERTO
+
+
+@import './seccion/body-puerto';
+
+

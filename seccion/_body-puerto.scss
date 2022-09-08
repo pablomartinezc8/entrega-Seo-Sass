@@ -1,0 +1,44 @@
+.puerto1{
+    img{
+        height: 500px;
+        width: 100vw;
+    }
+    h1{
+        margin: 50px 0px;
+        text-align: center;
+        &:hover{
+            color:$celeste;
+        }
+    }
+    h3{
+        font-size: 35px;
+        margin:40px 80px ;
+        &:hover{
+            
+            color:$celeste;
+        }
+    }
+    p{
+        font-size: 20px;
+        margin: 20px 80px;
+    }
+    h4{
+        font-size: 28px;
+        margin:40px 80px ;
+    }
+}
+@media (max-width: 420px) {
+    .puerto1{
+        h3 {
+            font-size: 25px;
+            margin: 13px 27px;
+        }
+        h4 {
+            font-size: 23px;
+            margin: 39px 21px;
+        }
+        p {
+            margin: 20px 29px;
+        }
+    }
+}
