@@ -1,2 +1,18 @@
   keywords:
-  -index:
+  -index:comercio intercomers puertos exportacion importacion.
+  -servicio:comunicacion gerenciamiento servicios consultora.
+  -puerto:"puerto paises socios asociados servicios.
+  -mercado:mercados paises puertos servicios.
+  -contacto:contacto nosotros ubicacion redes.
+
+  "AGREGUE"
+  - estilo al html.
+  -mix-ind.
+  -extend.
+  -secciones de cada pagina.
+  -variable de: colores, tipografia, y tamaño.
+  -agregue hover a titulos y parrafos.
+  -pase a png una imagen del carousel de index.html. 
+  -agregue margin a las secciones.
+ -use anidacion para el main.scss. 
+  -imagenes con url.
