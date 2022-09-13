@@ -40,7 +40,8 @@
   .header__img {
     width: 150px; }
   .header__nav {
-    font-size: 20px; }
+    font-size: 20px;
+    width: 100vw; }
     .header__nav .navbar-nav {
       --bs-nav-link-disabled-color: $negro; }
     .header__nav .btn-outline-success {

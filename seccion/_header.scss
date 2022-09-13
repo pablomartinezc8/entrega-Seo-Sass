@@ -21,9 +21,7 @@
     }
      &__nav{
         font-size: 20px;
-        // color: rgb(13, 13, 13);
-        //   .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-        //     color: #050506;}
+        width: 100vw;
             .navbar-nav {
                --bs-nav-link-disabled-color: $negro;
             }
