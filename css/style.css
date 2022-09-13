@@ -315,7 +315,7 @@ body {
     margin: 1px 17px; } }
 
 .puerto1 img {
-  height: 500px;
+  overflow: hidden;
   width: 100vw; }
 
 .puerto1 h1 {
