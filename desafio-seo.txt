@@ -14,5 +14,17 @@
   -agregue hover a titulos y parrafos.
   -pase a png una imagen del carousel de index.html. 
   -agregue margin a las secciones.
- -use anidacion para el main.scss. 
+  -use anidacion para el main.scss. 
   -imagenes con url.
+  -bootstrap.
+
+
+    LA PAGINA TIENE:
+     5 Paginas HTML cada una con su seccion de SCSS.
+     1 carpeta SCSS.
+     1 carpeta CSS.
+     1 carpeta con variables que dentro tienen tamaño de fuente, colores, extend, mix-ind, tipografia, etc.
+      sistemap.xml.
+      
+
+
