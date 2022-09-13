@@ -110,7 +110,6 @@ body {
   text-align: center; }
 
 .imgCarousel .fotoCentrada img {
-  height: 700px;
   width: 80%;
   text-align: center;
   vertical-align: middle; }
@@ -209,6 +208,8 @@ body {
   width: 100%;
   overflow: hidden;
   text-align: center; }
+  .mercados .imgCarousel .fotoCentrada img {
+    height: 700px; }
 
 .mercados .mercadoDos h2 {
   font-size: 40px;
@@ -226,7 +227,7 @@ body {
   margin: 20px 100px 50px 100px; }
 
 .mercados .largo {
-  margin: 0px 25px; }
+  margin: 0px 100px; }
 
 .mercados p {
   margin: 20px 25px; }
