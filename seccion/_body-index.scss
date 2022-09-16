@@ -46,7 +46,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    
+
     div{
         display: flex;
         width: 28vw;
@@ -69,8 +69,12 @@ body{
     }
     
     .section3 div {
-        width: 80vw;
-        margin: 30px 0px;
+            display: flex;
+    width: 80vw;
+    background-color: black;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0px 40px;
     }
     .wapp{
         bottom: 20px;

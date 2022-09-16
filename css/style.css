@@ -86,29 +86,39 @@ footer .grid-container2 {
   footer .grid-container2 .iframe {
     grid-area: iframe; }
     footer .grid-container2 .iframe iframe {
-      margin: 0px 100px;
+      margin: 0px 25px;
       width: 80vw; }
 
 @media (max-width: 768px) {
-  .footer iframe {
-    margin: 0px 0px 0px 116px;
-    width: 70vw; } }
+  .footer .iframe {
+    grid-area: iframe; }
+    .footer .iframe iframe {
+      margin: 0px 0px 0px 116px;
+      width: 70vw; } }
 
 @media (max-width: 420px) {
-  .footer iframe {
-    margin: 0px 0px 0px 0px;
-    width: 100vw; }
-  .footer .tituloFooter {
-    font-size: 30px;
-    margin: 10px; }
-  .footer .sectionFooter {
-    margin: 0px 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column; }
-  .footer p {
-    display: inline-block;
-    margin: 5px; } }
+  .footer .iframe {
+    grid-area: iframe; }
+    .footer .iframe iframe {
+      margin: 0px 0px 0px 0px;
+      width: 100vw; }
+  .footer .h1 {
+    grid-area: h1; }
+    .footer .h1 .tituloFooter {
+      margin: 40px 12px;
+      text-align: center;
+      font-size: calc(1.275rem + .3vw);
+      font-size: 40px; }
+  .footer .redes {
+    grid-area: redes; }
+    .footer .redes .sectionFooter {
+      margin: 0px 20px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column; }
+    .footer .redes p {
+      display: inline-block;
+      margin: 5px; } }
 
 body {
   background-color: black; }
@@ -190,8 +200,12 @@ body {
   .div {
     margin: 10px 20px; }
   .section3 div {
+    display: flex;
     width: 80vw;
-    margin: 30px 0px; }
+    background-color: black;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0px 40px; }
   .wapp {
     bottom: 20px;
     right: 35px; }

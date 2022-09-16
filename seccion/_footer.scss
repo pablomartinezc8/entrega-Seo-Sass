@@ -46,29 +46,42 @@ footer{
     .iframe { grid-area: iframe; 
     iframe{
        
-        margin: 0px 100px;
+        margin: 0px 25px;
         width: 80vw;
+    
     }
 }
 }
 }
 
 @media (max-width: 768px) {
-    .footer iframe {
+     
+    .footer .iframe { grid-area: iframe; 
+         iframe {
         margin: 0px 0px 0px 116px;
         width: 70vw;}
     }
+}
+
     @media (max-width: 420px) {
         
-
+        
         .footer{
+            .iframe { grid-area: iframe; 
              iframe {
             margin: 0px 0px 0px 0px;
             width: 100vw;}
+        }
+
+            .h1 { grid-area: h1;
             .tituloFooter{
-                font-size: 30px;
-            margin: 10px;
+                margin: 40px 12px;
+                text-align: center;
+                font-size: calc(1.275rem + .3vw);
+                font-size: 40px;
             }
+        }
+        .redes { grid-area: redes; 
             .sectionFooter {
                 margin: 0px 20px;
                 display: flex;
@@ -84,3 +97,4 @@ footer{
         }
         
     }
+}
