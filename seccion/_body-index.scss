@@ -48,9 +48,11 @@ body{
     flex-wrap: nowrap;
     align-items: center;
     div{
-        width: 50vw;
-        background-color: $negro;
-        
+        display: flex;
+        width: 28vw;
+        background-color: black;
+        flex-wrap: nowrap;
+        margin: 20px;
         p{
             font-size: 20px;
             margin: 15px;

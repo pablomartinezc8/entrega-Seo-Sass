@@ -175,8 +175,11 @@ body {
   flex-wrap: nowrap;
   align-items: center; }
   .section3 div {
-    width: 50vw;
-    background-color: black; }
+    display: flex;
+    width: 28vw;
+    background-color: black;
+    flex-wrap: nowrap;
+    margin: 20px; }
     .section3 div p {
       font-size: 20px;
       margin: 15px; }
