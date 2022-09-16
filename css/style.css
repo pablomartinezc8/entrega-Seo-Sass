@@ -172,8 +172,7 @@ body {
   color: #fafafc;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center; }
+  flex-wrap: nowrap; }
   .section3 div {
     display: flex;
     width: 28vw;
