@@ -41,26 +41,16 @@ footer{
     }
     
 }
-
-   
     .iframe { grid-area: iframe; 
     iframe{
-       
-        margin: 0px 25px;
-        width: 80vw;
-    
+        width: 100vw;
     }
 }
 }
 }
 
 @media (max-width: 768px) {
-     
-    .footer .iframe { grid-area: iframe; 
-         iframe {
-        margin: 0px 0px 0px 116px;
-        width: 70vw;}
-    }
+    
 }
 
     @media (max-width: 420px) {
@@ -75,7 +65,7 @@ footer{
 
             .h1 { grid-area: h1;
             .tituloFooter{
-                margin: 40px 12px;
+                margin: 40px 0px;
                 text-align: center;
                 font-size: calc(1.275rem + .3vw);
                 font-size: 40px;

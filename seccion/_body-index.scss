@@ -69,12 +69,12 @@ body{
     }
     
     .section3 div {
-            display: flex;
-    width: 80vw;
-    background-color: black;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin: 0px 40px;
+        display: flex;
+        width: 80vw;
+        background-color: black;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
     }
     .wapp{
         bottom: 20px;

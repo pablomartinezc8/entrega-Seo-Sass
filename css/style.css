@@ -86,15 +86,7 @@ footer .grid-container2 {
   footer .grid-container2 .iframe {
     grid-area: iframe; }
     footer .grid-container2 .iframe iframe {
-      margin: 0px 25px;
-      width: 80vw; }
-
-@media (max-width: 768px) {
-  .footer .iframe {
-    grid-area: iframe; }
-    .footer .iframe iframe {
-      margin: 0px 0px 0px 116px;
-      width: 70vw; } }
+      width: 100vw; }
 
 @media (max-width: 420px) {
   .footer .iframe {
@@ -105,7 +97,7 @@ footer .grid-container2 {
   .footer .h1 {
     grid-area: h1; }
     .footer .h1 .tituloFooter {
-      margin: 40px 12px;
+      margin: 40px 0px;
       text-align: center;
       font-size: calc(1.275rem + .3vw);
       font-size: 40px; }
@@ -205,7 +197,7 @@ body {
     background-color: black;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin: 0px 40px; }
+    align-items: center; }
   .wapp {
     bottom: 20px;
     right: 35px; }
