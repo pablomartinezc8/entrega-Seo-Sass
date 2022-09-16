@@ -76,6 +76,7 @@ footer .grid-container2 {
       display: flex;
       justify-content: space-around; }
       footer .grid-container2 .redes .sectionFooter div h3 {
+        margin: 30px;
         text-align: center; }
         footer .grid-container2 .redes .sectionFooter div h3:hover {
           color: #00cdf1; }
