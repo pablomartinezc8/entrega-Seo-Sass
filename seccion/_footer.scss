@@ -1,4 +1,15 @@
 footer{
+    .grid-container2 {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 1.5fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "h1 h1 h1 h1 h1"
+          "iframe iframe iframe iframe iframe"
+          "redes redes redes redes redes";
+      
+          .h1 { grid-area: h1;
     .tituloFooter {
         margin: 58px;
         text-align: center;
@@ -8,6 +19,8 @@ footer{
             color:$celeste;
         }
     }
+    }
+    .redes { grid-area: redes; 
     .sectionFooter{
         display: flex;
         justify-content: space-around;
@@ -21,14 +34,18 @@ footer{
         }
         
     }
+}
     p{
         text-align: center;
     }
+    .iframe { grid-area: iframe; 
     iframe{
        
         margin: 0px 100px;
         width: 80vw;
     }
+}
+}
 }
 
 @media (max-width: 768px) {
