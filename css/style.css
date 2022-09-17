@@ -186,6 +186,15 @@ body {
         font-size: 21px;
         color: #00cdf1; }
 
+@media (max-width: 768px) {
+  .section3 div {
+    display: flex;
+    width: 88vw;
+    background-color: black;
+    flex-wrap: nowrap;
+    margin: 20px;
+    flex-direction: column; } }
+
 @media (max-width: 420px) {
   .div {
     margin: 10px 20px; }
