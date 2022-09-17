@@ -290,7 +290,9 @@ body {
     font-size: 30px; }
   .mercados .mercadoDos h2 {
     font-size: 25px;
-    margin: 40px 40px; } }
+    margin: 40px 40px; }
+  .mercados .largo {
+    margin: 0px 40px; } }
 
 .servicios h1 {
   margin: 50px 0px;
