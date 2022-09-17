@@ -59,6 +59,7 @@ h2{
 }
 }
 @media (max-width: 420px) {
+    .mercados{
     .imgCarousel{
         .fotoCentrada {
             position: relative;
@@ -75,7 +76,7 @@ h2{
             }
         }
     }
-    
+}
     .mercados .mercadoDos h3{
         margin: 0px 0px 0px 22px;
             font-size: 25px;
