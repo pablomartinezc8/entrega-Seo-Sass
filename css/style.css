@@ -278,6 +278,10 @@ body {
   .mercados .mercadoDos h3 {
     margin: 0px 0px 0px 22px;
     font-size: 25px; }
+    .mercados .mercadoDos h3 .largo {
+      margin: 0px 40px; }
+  .mercados p {
+    margin: 20px 23px; }
   .mercados ul {
     margin: 9px 10px 50px 21px; }
   .mercados h1 {

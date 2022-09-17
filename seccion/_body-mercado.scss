@@ -75,8 +75,13 @@ h2{
     .mercados .mercadoDos h3{
         margin: 0px 0px 0px 22px;
             font-size: 25px;
+            .largo{
+                margin: 0px 40px;
+             }
         }
-    
+    .mercados p{
+        margin: 20px 23px;
+      }
     .mercados ul {
         margin: 9px 10px 50px 21px;}
     
@@ -88,5 +93,6 @@ h2{
         .mercados .mercadoDos h2 {
             font-size: 25px;
             margin: 40px 40px;
+            
         }
     }
