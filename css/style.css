@@ -64,7 +64,6 @@ footer .grid-container2 {
   footer .grid-container2 .h1 {
     grid-area: h1; }
     footer .grid-container2 .h1 .tituloFooter {
-      margin: 58px;
       text-align: center;
       font-size: calc(1.275rem + .3vw);
       font-size: 40px; }
